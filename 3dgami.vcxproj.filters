@@ -29,6 +29,9 @@
     <ClInclude Include="shader_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="3.3.shader.vs">
@@ -37,5 +40,7 @@
     <None Include="3.3.shader.fs">
       <Filter>shaders</Filter>
     </None>
+    <None Include="5.1.transform.fs" />
+    <None Include="5.1.transform.vs" />
   </ItemGroup>
 </Project>
